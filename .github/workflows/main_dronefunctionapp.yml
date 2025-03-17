@@ -40,4 +40,4 @@ jobs:
           app-name: 'DroneFunctionApp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A8F6BDB1BBA84F4885CAB3395A9728A9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7FF538AF2E694998A3E6C0DB5447F5A3 }}
